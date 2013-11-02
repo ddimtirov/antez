@@ -1,0 +1,31 @@
+<project name="antez-plus" default="jar">
+    <target name="init">
+        <property name="src.dir" value="src"/>
+        <property name="target.dir" value="target"/>
+        <property name="classes.dir" value="${target.dir}/classes"/>
+        <property name="jar.dir" value="${target.dir}/jar"/>
+    </target>
+
+    <target name="build" depends="init">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
+
+    </target>
+
+    <target name="jar" depends="build, init">
+        <mkdir dir="${jar.dir}"/>
+        <jar basedir="${classes.dir}" jarfile="${jar.dir}/${ant.project.name}.jar"/>
+    </target>
+
+    <target name="clean" depends="init">
+        <delete dir="${target.dir}" failonerror="false" />
+    </target>
+
+    <target name="copy-to-casino" depends="jar">
+
+        <copy
+            file="${jar.dir}/${ant.project.name}.jar"
+            tofile="../midpcasino/tools" />
+
+    </target>
+</project>

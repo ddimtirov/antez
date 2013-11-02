@@ -1,0 +1,15 @@
+h1 {
+    width: 100%;
+    color: yellow;
+    background-color: navy;
+    padding: 0.5em;
+}
+h2 {
+    width: 100%;
+    color: white;
+    background-color: #4169E1;
+    padding: 0.1em;
+}
+hr {
+    border: 1px solid  #4169E1;
+}

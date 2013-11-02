@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="false" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/res" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target/jar" />
+      <excludeFolder url="file://$MODULE_DIR$/target/res" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/work/Tools/ant/lib/ant.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://C:/work/Tools/ant/docs/manual/api" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="MIDP API (v1.3)" level="application" />
+    <orderEntry type="library" name="KDDI Profile (phase 2.5)" level="application" />
+  </component>
+</module>
+
